@@ -1,5 +1,6 @@
 body {
   background-color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   color: white;
   position: fixed;
   width: 100%;
-  margin-top: -1rem;
+  margin-top: -3rem;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav a {
   padding: 0 9px;
 }
 
-/* #lblCartCount {
+ #lblCartCount {
   font-size: 12px;
   background: #ff0000;
   color: #fff;
@@ -43,10 +44,10 @@ nav a {
 
 .bx {
   font-size: 20px;
-  margin-right: 1rem;
-} */
+  /* margin-right: 1rem; */
+} 
 
-/* .badge {
+ .badge {
   background-color: #ff6600;
   color: #fff;
   padding: 5px 10px;
@@ -54,8 +55,10 @@ nav a {
   font-size: 12px;
   font-weight: bold;
   
-} */
-
+} 
+main{
+  margin-top: 3rem;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
