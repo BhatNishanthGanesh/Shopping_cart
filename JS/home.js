@@ -65,7 +65,7 @@ function addToCart(index) {
   var selectedItem = items[index];
 
   // Construct the URL with the card ID
-  var url = "/Shopping_cart/HTML/cart.html?card=" + index;
+  var url = "cart.html?card=" + index;
 
   // Redirect to the cart page with the card ID appended to the URL
   window.location.href = url;
