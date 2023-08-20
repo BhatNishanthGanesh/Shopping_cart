@@ -48,7 +48,7 @@ window.addEventListener("DOMContentLoaded", function () {
       ];
   
       var selectedItem = items[cardIndex];
-  
+
       // Display the selected item in the cart
       displayCartItem(selectedItem);
     }
@@ -73,12 +73,14 @@ window.addEventListener("DOMContentLoaded", function () {
   
     var card = document.createElement("div");
     card.classList.add("card");
-  
+    
+
     card.innerHTML = `
       <div>
           <div>
               <img src="${item.image}" alt="Image not found" class="img-size">
           </div>
+          <div>
           <div class="card-body">
               <h5 class="card-title">${item.title}</h5>
               <div class="cart-price">${item.price}</div>
@@ -126,6 +128,7 @@ window.addEventListener("DOMContentLoaded", function () {
     closeButton.addEventListener("click", function () {
       var card = document.querySelector(".card");
       card.remove();
+      alert("Order is removed!");
     });
   }
   
